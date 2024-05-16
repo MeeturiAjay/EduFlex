@@ -1,0 +1,6 @@
+    with col6:
+       st.markdown("""
+                <ul>
+                  <li style="font-size:25px ; margin-top:35px"></li>
+               </ul>
+               """, unsafe_allow_html=True)
