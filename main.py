@@ -14,7 +14,7 @@ st.title("Daily Course Planner")
 
 st.text_input("Please tell us your name")
 
-col1 , col2 = st.columns(2)
+col1, col2 = st.columns(2)
 
 with col1:
     course = st.text_input("Which course do you want to learn")
@@ -44,10 +44,10 @@ prompt_template = f'''You are course a lecture in the course.{course}I am you st
                         At the end of the day I want to revise the topics that  I have learnt at the end of the day so please add the revision time and the 
                         topics to recall. Start the plan with a motivational quote so that I can have a positive attitude while learning.Add the timings in which
                         to complete the topic.I cannot spend all {no_of_hours} hours at once so divide them in the day at each part of the day.
-                        
+                        Ret
                         Output Format :
                         DAY_1 : 
-                        9-10 : Topicsto Cover
+                        9-10  : Topics to Cover
                         10-11 : Topics to cover
                         ""
                         ""
