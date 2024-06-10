@@ -589,11 +589,11 @@ if chosen == "Road Map":
     col3, col4 = st.columns(2)
 
     with col3:
-        st.session_state.user_inputs['no_of_hours'] = st.number_input("Choose number of learning hours per day",
-                                                                      value=1, placeholder="Choose here")
+        st.session_state.user_inputs['no_of_hours'] = st.slider("Choose number of learning hours per day",
+                                                                      1,20,5)
     with col4:
-        st.session_state.user_inputs['no_of_days'] = st.number_input("How many days you want to learn the skill",
-                                                                     value=1, placeholder="Choose here")
+        st.session_state.user_inputs['no_of_days'] = st.slider("How many days you want to learn the skill",
+                                                                     1,30,7)
 
     st.session_state.user_inputs['target_level'] = st.selectbox(
         "To which level do you want to reach at the end of the preparation",
