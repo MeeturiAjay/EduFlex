@@ -37,7 +37,6 @@ def load_local_lottie(filepath):
 import streamlit as st
 import cv2
 import numpy as np
-from PIL import Image
 
 # Load the certificate template
 certificate_template = cv2.imread("certificate_template.jpg")
