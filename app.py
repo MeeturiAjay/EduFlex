@@ -228,7 +228,7 @@ if chosen == "Learn":
 
     st.title("Course recommender")
     # Replace 'YOUTUBE_API_KEY' with your actual API key
-    API_KEY = "AIzaSyCyq_sYCGnNydRQyQ0tTVYYZHtAhfHArdY"
+    API_KEY = "AIzaSyCtzlv23kCbEdM9tQM4hE1EXa2gSXbrkWQ"
 
 
     @st.cache_data
