@@ -1,4 +1,4 @@
-geminiai_api_key = "AIzaSyB9YCVmMv95jbiseKXHnoIOeCcQzlvHf1w"
+geminiai_api_key = "AIzaSyBy_b2VIh-hk2y7m2qawgzDJQT9tt8GvBo"
 
 gemini_api_key = "AIzaSyC556ikWj8nEMaExke05nUX4xXN8b8dIww"
 
