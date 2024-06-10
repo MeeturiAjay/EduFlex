@@ -382,7 +382,7 @@ if chosen == "Learn":
                         vector_store.save_local("faiss_index")
 
 
-                    @st.cache_data
+                    
                     def get_conversational_chain():
                         prompt_template = '''Answer the question as detailed as possible from the provided context, make sure to provide all the details.
                         Context:\n {context}?\n
@@ -398,7 +398,6 @@ if chosen == "Learn":
                         return chain
 
 
-                    @st.cache_data
                     def user_input(user_question):
                         embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
