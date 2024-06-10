@@ -592,7 +592,7 @@ if chosen == "Road Map":
                                                                       1,20,5)
     with col4:
         st.session_state.user_inputs['no_of_days'] = st.number_input("How many days you want to learn the skill",
-                                                                     value=1,place_holder="Choose here")
+                                                                     value=1,placeholder="Choose here")
 
     st.session_state.user_inputs['target_level'] = st.selectbox(
         "To which level do you want to reach at the end of the preparation",
