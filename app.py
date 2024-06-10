@@ -23,6 +23,7 @@ import requests
 import json
 
 
+st.set_page_config("EDUFLEX",page_icon="🔖",layout="wide")
 def load_lottie(url):
     r = requests.get(url)
     if r.status_code != 200:
